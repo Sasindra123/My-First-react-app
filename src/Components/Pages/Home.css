@@ -1,0 +1,45 @@
+* {
+  margin: 0 auto;
+  padding: 0 10px;
+  font-family: "rubik", sans-serif;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+}
+
+div header div nav ul {
+  font-weight: bold;
+  list-style: none;
+  margin: 7px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-align: center;
+}
+
+div header {
+  padding: 20px;
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+  color: rgba(49, 180, 49, 0.708);
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  gap: 20px;
+}
+#name {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.container p {
+  font-size: 30px;
+}
+hr {
+  width: 100%;
+}

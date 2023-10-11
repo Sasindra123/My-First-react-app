@@ -1,0 +1,41 @@
+.top-elem {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.log {
+  margin-left: 20px;
+}
+
+.log:hover {
+  font-weight: bold;
+  background-color: aliceblue;
+  color: black;
+  transition: all 1s ease-in-out;
+}
+
+.Cards {
+  margin: 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sec-img {
+  transition: all 1s ease-in-out;
+}
+
+.sec-img:hover {
+  transform: scale(1.09);
+}
+
+.services {
+  color: black;
+  background-color: aliceblue;
+}
